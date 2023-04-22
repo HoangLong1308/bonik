@@ -1,6 +1,4 @@
 ﻿Trương Hoàng Long
-<h2>Version 3 changes</h2>
-
 - Added Material UI – Styled api (v5)
 - Added Material UI updated components from MUI@version 5
 - Added React Apex Chart
