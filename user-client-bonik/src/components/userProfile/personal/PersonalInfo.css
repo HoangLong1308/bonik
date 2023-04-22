@@ -1,0 +1,23 @@
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.presonalInfo_personal {
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 13%);
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 50px;
+    margin-top: 50px;
+}
+.dark .presonalInfo_personal{
+  background-color: #3a3b3c;
+}
+.dark :where(.css-dev-only-do-not-override-sk7ap8).ant-form-item .ant-form-item-label >label,
+.dark :where(.css-dev-only-do-not-override-sk7ap8).ant-input{
+  color: #e2e8ec;
+  background-color: #3a3b3c;
+}

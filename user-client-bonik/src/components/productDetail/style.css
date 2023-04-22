@@ -1,0 +1,96 @@
+.productDetail{
+   max-width:80% ;
+   margin: auto;
+}
+.top-product-page-v2{
+padding: 100px 0;
+}
+.dark .productDetail .product_style,
+.dark .productDetail .product_tskt{
+    background-color: #3a3b3c;
+    color: #e4e6eb;
+}
+.dark .top-product-page-v2{
+    background-color: #242526;
+    border-top: 1px solid #9d9d9d;
+}
+.productDetail .product_style{
+    padding-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.1), 0 2px 6px 2px rgba(60,64,67,.15);
+}
+.productDetail .product_tskt{
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.1), 0 2px 6px 2px rgba(60,64,67,.15);
+}
+.productDetail .product_tskt .technical_content{
+  padding: 10px;  
+  height: 100%;
+
+}
+.productDetail .product_tskt .technical_content ul{
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    height: 85%;
+    overflow: hidden;
+}
+.dark .productDetail .product_tskt .technical_content ul{
+    border: 1px solid #949494;
+}
+.productDetail .product_tskt .technical_content .items {
+    display: flex;
+    font-size: 14px;
+    padding: 8px;
+    width: 100%;
+    gap: 10%;
+    
+    
+}
+.productDetail .product_tskt .technical_content li:nth-child(odd) {
+    background-color: #f2f2f2;
+   
+}
+.dark .productDetail .product_tskt .technical_content li:nth-child(odd){
+    background-color: #242526;
+}
+.productDetail .product_tskt .technical_content .items p{
+    width: 40%;
+}
+.productDetail .product_tskt .technical_content .items div{
+    width: 50%;
+}
+.top-product-page-v2 .img{
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+}
+.top-product-page-v2 .btn {
+    width: 180px;
+}
+.dark .top-product-page-v2 .text{
+    color: #e4e6eb;
+}
+.top-product-page-v2 .btn_flex{
+    display: flex;
+}
+.top-product-page-v2 .btn_buy button{
+    padding: 7.5px 10px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.dark :where(.css-dev-only-do-not-override-sk7ap8).ant-tabs .ant-tabs-tab-btn,
+.dark :where(.css-dev-only-do-not-override-sk7ap8).ant-tabs .ant-tabs-content,
+.dark :where(.css-dev-only-do-not-override-sk7ap8).ant-card .ant-card-body,
+.dark .ui.comments .comment .author,
+.dark .ui.comments .comment .metadata{
+    color: #e4e6eb;
+}
+.dark  :where(.css-dev-only-do-not-override-sk7ap8).ant-card .ant-card-body,
+.dark :where(.css-dev-only-do-not-override-sk7ap8).ant-card-bordered{
+    border: none;
+    background-color: #3a3b3c;
+}

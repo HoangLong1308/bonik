@@ -1,0 +1,205 @@
+.container_signUp {
+    background: url('https://mdbootstrap.com/img/Photos/Others/img%20(42).webp')
+        no-repeat center center;
+    background-size: cover;
+    padding: 50px 0;
+}
+.dark .background_signUp {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px 0;
+}
+.dark .container_signUp {
+    padding: 0;
+}
+.form_signUp {
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 20px;
+}
+.dark .form_signUp {
+    background-color: #242526;
+}
+.dark .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    color: #e4e6eb;
+}
+.dark
+    label[data-shrink='false']
+    + .MuiInputBase-formControl
+    .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    background-color: #3a3b3c;
+    border-radius: 20px;
+}
+.dark .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    color: #e4e6eb;
+}
+.container_signUp .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-radius: 20px;
+}
+.form_signUp form {
+    padding-top: 0;
+    margin-top: 4px;
+}
+.google_guide_container_signUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+}
+.dark .google_guide_container_signUp {
+    color: #e4e6eb;
+}
+.google_guide_container_signUp p {
+    padding: 0 5px;
+    margin: 0;
+}
+.hr_left_signUp,
+.hr_right_signUp {
+    width: 29%;
+    height: 1px;
+    background-color: #cccccc;
+}
+.signIn_signUp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signIn_signUp a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.dark .signIn_signUp a {
+    color: #e4e6eb;
+}
+.dark .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: #e4e6eb;
+}
+.dark .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: #e4e6eb;
+}
+.signIn_signUp a span {
+    color: #1976d2;
+}
+.css-jr9h65 {
+    padding-top: 0;
+}
+.test_signUp {
+    height: 100%;
+}
+.Verification_form_signUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Verification_form_signUp form {
+    height: 320px;
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    opacity: 0.8;
+    text-align: center;
+}
+.dark .Verification_form_signUp form{
+    background-color: #242526;
+}
+.Verification_form_signUp form input {
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.dark .Verification_form_signUp form input{
+    background-color: #3a3b3c;
+    color: #e4e6eb;
+    border: none;
+}
+.dark .Verification_form_signUp form .box_button_signUp p{
+    color: #e4e6eb;
+}
+.Verification_form_signUp form input::placeholder{
+    color: #e4e6eb;
+   
+}
+.dark .content_signUp p:first-of-type{
+    color: #e4e6eb;
+}
+.dark .content_signUp h2:first-of-type{
+    color: #e4e6eb;
+}
+.Verification_form_signUp form {
+    padding: 20px 20px 0px 20px;
+}
+.Verification_form_signUp form .btn_signUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 40px;
+}
+.Verification_form_signUp form .btn_signUp button {
+    padding: 10px 30px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.Verification_form_signUp form .btn_signUp button.first_signUp {
+    background-color: #1976d2;
+    color: white;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.Verification_form_signUp form .btn_signUp button.second_signUp {
+    background-color: #064f99;
+    color: rgb(166, 165, 165);
+    border-radius: 20px;
+    cursor: not-allowed;
+}
+.Verification_form_signUp form .btn_signUp button.first_signUp:hover {
+    background-color: rgb(30, 30, 177);
+}
+.Verification_form_signUp form {
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: left;
+    margin: 0;
+    text-align: center;
+}
+.Verification_form_signUp .content_signUp h2:last-of-type {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    height: 19px;
+    color: red;
+}
+.Verification_form_signUp form .btn_signUp button.first_xm_signUp {
+    background-color: rgb(234, 116, 74);
+    color: white;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.Verification_form_signUp form .btn_signUp button.last_xm_signUp {
+    background-color: rgb(163, 81, 51);
+    color: rgb(181, 181, 181);
+    border-radius: 20px;
+    cursor: not-allowed;
+}
+.Verification_form_signUp form .btn_signUp button.first_xm_signUp:hover {
+    background-color: rgb(223, 78, 25);
+}
+.Verification_form_signUp form .content_signUp .security_signUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Verification_form_signUp form .box_button_signUp p {
+    height: 20px;
+    text-align: center;
+}
+.Verification_form_signUp form .box_button_signUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 110px;
+}

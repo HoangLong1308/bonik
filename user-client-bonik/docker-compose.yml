@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+
+  sell-electronic-fe:
+    container_name: sell-electronic
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - '3000:3000'

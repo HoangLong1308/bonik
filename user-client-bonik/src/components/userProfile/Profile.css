@@ -1,0 +1,88 @@
+.ant-tabs-tabpane{
+    padding-left: 0!important;
+}
+.wishlist-container {
+    padding: 2rem 3.5rem;
+}
+.wishlist-container .wishlist-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    width: auto;
+    height: auto
+
+}
+.wishlist-card .wishlist-card-image {
+    max-width: 300px;
+}
+.wishlist-card .cat-info {
+    font-size: 11px;
+    color:darkgrey;
+}
+.wishlist-card .product-name {
+    font-size: 1.5rem;
+    color:#4183c4;
+}
+.wishlist-card .ant-card-body {
+    flex: 1;
+    display: flex;
+}
+.wishlist-card .wishlist-card-body-info {
+    flex: 1;
+}
+.Profile_name{
+    color: #4183c4;
+    font-weight: 600;
+}
+.wishlist-card .product-name {
+    margin: 0rem 0 1rem 0;
+}
+.wishlist-card .wishlist-card-body-btn {
+    border-radius: 50%;
+}
+.profile-tabs .ant-tabs-content-holder .ant-tabs-content .ant-tabs-tabpane {
+    background-color: rgb(204 207 212 / 16%);
+}
+/* :where(.css-dev-only-do-not-override-sk7ap8).ant-avatar.ant-avatar-icon{
+color: #4183c4;
+} */
+.profile-tabs .ant-tabs-content-holder .ant-tabs-content .ant-tabs-tabpane>div {
+    background-color: rgba(239, 241, 244, 0.16);
+}
+.dark .profile-tabs{
+    background-color: #3a3b3c;
+    border-top: 1px solid rgb(150, 150, 150);
+    border-bottom: 1px solid rgb(150, 150, 150);
+}
+.dark .profile-tabs .ant-tabs-content-holder .ant-tabs-content .ant-tabs-tabpane>div{
+    background-color: #242526;
+}
+
+.address-section .address-row .add-def {
+    font-size: 12px;
+    display: inline-block;
+    background-color: #e94561;
+    color: white;
+    margin-left: 0.5rem;
+    margin-bottom: 0;
+    height: 100%;
+    padding: 2px 5px;
+}
+
+.address-section .address-row .address-title{
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: rgb(65, 131, 196);
+    display: flex;
+    align-items: center;
+}
+
+.address-section .add-new-btn {
+    color: white;
+    background-color: #4282c4;
+    margin: calc(2rem - 0.14285714em) 0 1rem;
+    margin-top: 0;
+}
+
+

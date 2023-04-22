@@ -1,0 +1,45 @@
+.flash {
+    background: #f6f9fc;
+    padding: 50px 0;
+}
+.dark .flash{
+  background-color: #242526;
+}
+.dark .flash h4,
+.dark .f_flex h1,
+.dark .flash h1 {
+  color: #e4e6eb;
+}
+
+.flash h4 {
+    font-weight: 400;
+}
+.flash span {
+    color: #e94560;
+    font-size: 14.7px;
+    font-weight: 500;
+}
+.flash .box .img{
+    padding:  0 5px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: white;
+}
+.flash .box img {
+    width: 100%;
+    height: 100%;
+    /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+    object-fit: contain;
+}
+.slick-track {
+    width: 100%;
+}
+.flash .box:hover {
+    box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+    transform: translateY(-10px);
+}
+.flash .box {
+    transition: all 0.5s;
+}

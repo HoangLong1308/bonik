@@ -1,0 +1,28 @@
+.backToTop{
+position: fixed; 
+   width: 100%;
+   left: 92%;
+   bottom: 60px;
+   z-index: 10;
+   
+}
+.backToTop button{
+    cursor: pointer;
+    background-color: #e94560;
+    opacity: .8;
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    transition: all .5s;
+    border: 1.5px solid white;
+   
+}
+.backToTop button:hover{
+ opacity: 1;
+ height: 50px;
+ width: 50px;
+ font-size: 30px;
+}

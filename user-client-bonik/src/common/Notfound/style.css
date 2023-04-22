@@ -1,0 +1,26 @@
+.notFound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+}
+.notFound h3.text{
+    font-size: 30px;
+    color: #4183c4;
+}
+.notFound img{
+    animation: myStyle 6s infinite;
+    /* transition: all .6s; */
+}
+@keyframes myStyle{
+    0%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY( 20px);
+    }
+    100%{
+        transform: translateY(-50px);
+    }
+}

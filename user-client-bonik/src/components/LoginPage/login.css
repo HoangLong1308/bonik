@@ -1,0 +1,44 @@
+.container_login{
+    background: url("https://mdbootstrap.com/img/Photos/Others/img%20(42).webp")no-repeat center center;
+    background-size: cover;
+    
+    
+}
+.container_login .box_login{
+    border-radius: 20px;
+    opacity: .8;
+}
+.dark .background_login{
+    background-color: rgba(0, 0, 0, 0.6);
+  
+}
+.background_login{
+    padding:90px 0;
+    justify-content: center;
+}
+.dark .box_login{
+    opacity: 1;
+    background-color: #242526;
+}
+.dark .box_login input{
+    background-color: #3a3b3c;
+    border-radius: 20px;
+    color: #e4e6eb
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    border-radius: 20px;
+}
+.dark .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root,
+.dark .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
+.dark .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root
+{
+    color: #e4e6eb;
+}
+.css-1wc848c-MuiFormHelperText-root{
+    color: red;
+    font-size: 14px;
+}
+.dark .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border:  2px solid #e4e6eb;
+
+}

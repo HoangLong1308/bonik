@@ -1,0 +1,107 @@
+/* Sweep To Right */
+.add-cart-btn {
+    background-color: #ffffff;
+    border-color: #d9d9d9;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    width: 90%;
+}
+
+.add-cart-btn.hvr-sweep-to-right {
+    padding: 20px;
+    /* background: lightgrey; */
+    display: inline-block;
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    transition: color 0.3s;
+    border: 1px solid transparent;
+    background-color: #ffffff;
+    border-color: #d9d9d9;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    font-size: 14px;
+    height: 32px;
+    padding: 4px 15px;
+    border-radius: 6px;
+}
+
+.add-cart-btn.hvr-sweep-to-right:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: #58b0d8;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition: transform 0.3s ease-out;
+    border-radius: 5px;
+}
+
+.add-cart-btn.hvr-sweep-to-right:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.add-cart-btn.hvr-sweep-to-right:hover:before {
+    transform: scaleX(1);
+}
+
+.add-cart-btn.hvr-sweep-to-right:disabled {
+    background-color: #b0afaf30;
+  color:rgb(143, 143, 143);
+}
+
+.add-cart-btn.hvr-sweep-to-right:disabled:hover {
+    background-color: #b0afaf30;
+    cursor: no-drop;
+    /* color:rgb(104, 104, 104); */
+    transform: scaleX(1);
+    /* color: white; */
+}
+
+.add-cart-btn.hvr-sweep-to-right:disabled:before {
+    /* /* content: ""; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* color:rgb(104, 104, 104); */
+    transform: scaleX(1);
+    background-color: #b0afaf30;
+}
+.notification_buy h2{
+    color: rgb(241, 140, 7);
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.notification_buy .img img{
+    width: 300px;
+    border-radius: 20px;
+}
+.notification_buy .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notification_buy .notification_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+.notification_buy .notification_btn button:first-of-type{
+    background-color: #58b0d8;
+    color: #ffffff;
+}
+.notification_sign_up_buy h4{
+    margin: 0;
+    padding-right: 5px;
+}
+.notification_sign_up_buy{
+    display: flex;
+    align-items: center;
+}

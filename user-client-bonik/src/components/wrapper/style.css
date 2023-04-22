@@ -1,0 +1,30 @@
+.wrapper {
+  text-align: center;
+}
+.wrapper .img {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+.dark .wrapper .img {
+  background-color: gray;
+}
+.wrapper .img i {
+  font-size: 25px;
+}
+.dark .wrapper .img i{
+  color: #e4e6eb;
+}
+.wrapper .product {
+  padding: 30px;
+}
+.wrapper .product h3 {
+  font-weight: 500;
+}
+.wrapper p {
+  font-size: 15px;
+  margin-top: 20px;
+  color: grey;
+}
